@@ -1,10 +1,13 @@
 #include "../include/core.h"
 
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
+
 #include <iostream>
 
 typedef unsigned int uint32;
 
-__global__ void matrixmath::cudaMatMul(float* dev_result, float* dev_a, const float* dev_b, int width)
+__global__ void cudaMatMul(float* dev_result, float* dev_a, const float* dev_b, int width)
 {
 	int row = blockIdx.y * blockDim.y + threadIdx.y;
 	int col = blockIdx.x * blockDim.x + threadIdx.x;
@@ -50,7 +53,8 @@ EXP_CUDA_MATRIXMATH void matrixmath::matmul(float* result, const float* a, const
 
 	cudaDeviceReset();
 }
-__global__ void matrixmath::cudaMatDet(float* dev_result, float* dev_mat, int width, int sarrusmatsize)
+
+__global__ void cudaMatDet(float* dev_result, float* dev_mat, int width, int sarrusmatsize)
 {
 	int row = blockIdx.y * blockDim.y + threadIdx.y;
 	int col = blockIdx.x * blockDim.x + threadIdx.x;

@@ -1,0 +1,1 @@
+C:\Dev\cudamathlib-1c\1с-component\rust\target\debug\rust_1c.lib: C:\Dev\cudamathlib-1c\1с-component\rust\src\impl_test.rs C:\Dev\cudamathlib-1c\1с-component\rust\src\interaction_with_cpp.rs C:\Dev\cudamathlib-1c\1с-component\rust\src\lib.rs C:\Dev\cudamathlib-1c\1с-component\rust\src\struct_dto.rs

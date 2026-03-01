@@ -1,0 +1,18 @@
+# ninja log v6
+3	111	7940711562298773	build.ninja	667ee00623d8644c
+14	76	7940706311582712	CMakeFiles/AddInNative.dir/AddInNative.rc.res	c7cac26a733ef19f
+8	332	7940710545402825	CMakeFiles/AddInNative.dir/impl/MatMul.cpp.obj	631eb2fbccdf1ba7
+11	472	7940706311552692	CMakeFiles/AddInNative.dir/cmake_pch.cxx.obj	e7f5c77afa8875a8
+477	513	7940706316133478	CMakeFiles/AddInNative.dir/stdafx.cpp.obj	31708567b8c49ddf
+475	514	7940706316133478	CMakeFiles/AddInNative.dir/dllmain.cpp.obj	639825518165b937
+479	798	7940706316133478	CMakeFiles/AddInNative.dir/C_/Dev/cudamathlib-1c/component/cpp/lib/common.cpp.obj	710938f28380c1a6
+482	788	7940706316262757	CMakeFiles/AddInNative.dir/impl/test.cpp.obj	89c9fcd0aeceb181
+5	338	7940710545372801	CMakeFiles/AddInNative.dir/impl/MatDet.cpp.obj	98c30185817f4b69
+472	829	7940706316133478	CMakeFiles/AddInNative.dir/AddInNative.cpp.obj	ff7ef7a29eb5f22a
+593	762	7940655449014524	AddInNative.dll	ab44a5d534949e39
+593	762	7940655449014524	AddInNative.lib	ab44a5d534949e39
+3	12	7940706291944495	clean	3f9b83505c84670f
+20	561	7940655443278464	CMakeFiles/AddInNative.dir/impl/helper.cpp.obj	bfd985200d8928ec
+11	295	7940711581766351	CMakeFiles/AddInNative.dir/impl/helper.cpp.obj	bfd985200d8928ec
+295	431	7940711584619891	AddInNative.dll	ab44a5d534949e39
+295	431	7940711584619891	AddInNative.lib	ab44a5d534949e39
