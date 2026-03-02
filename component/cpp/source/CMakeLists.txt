@@ -61,10 +61,10 @@ add_library(matrixmathlib::matrixmathlib SHARED IMPORTED)
 set_target_properties(
     matrixmathlib::matrixmathlib
     PROPERTIES
-    IMPORTED_IMPLIB "${CMAKE_SOURCE_DIR}/../cudamathlib/lib/matrixmath.lib"
-    IMPORTED_LOCATION "${CMAKE_SOURCE_DIR}/../cudamathlib/lib/matrixmath.dll"
+    IMPORTED_IMPLIB "${CMAKE_SOURCE_DIR}/../cudamathlib-x64/lib/matrixmath.lib"
+    IMPORTED_LOCATION "${CMAKE_SOURCE_DIR}/../cudamathlib-x64/lib/matrixmath.dll"
     IMPORTED_NO_SONAME "TRUE"
-    INTERFACE_INCLUDE_DIRECTORIES "${CMAKE_SOURCE_DIR}/../cudamathlib/include"
+    INTERFACE_INCLUDE_DIRECTORIES "${CMAKE_SOURCE_DIR}/../cudamathlib-x64/include"
 )
     
 target_link_libraries(AddInNative PRIVATE matrixmathlib::matrixmathlib)

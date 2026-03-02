@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_AddInNative: phony || .
 build CMakeFiles\AddInNative.dir\cmake_pch.cxx.obj: CXX_COMPILER__AddInNative_unscanned_Debug C$:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug\CMakeFiles\AddInNative.dir\cmake_pch.cxx | CMakeFiles\AddInNative.dir\cmake_pch.hxx || cmake_object_order_depends_target_AddInNative
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /YcC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx /FpC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/./cmake_pch.cxx.pch /FIC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx
-  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include -external:W0
+  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include -external:W0
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -67,7 +67,7 @@ build CMakeFiles\AddInNative.dir\.\cmake_pch.cxx.pch: phony CMakeFiles\AddInNati
 build CMakeFiles\AddInNative.dir\AddInNative.cpp.obj: CXX_COMPILER__AddInNative_unscanned_Debug C$:\Dev\cudamathlib-1c\component\cpp\source\AddInNative.cpp | CMakeFiles\AddInNative.dir\cmake_pch.hxx CMakeFiles\AddInNative.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_AddInNative
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /YuC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx /FpC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/./cmake_pch.cxx.pch /FIC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx
-  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include -external:W0
+  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include -external:W0
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -76,7 +76,7 @@ build CMakeFiles\AddInNative.dir\AddInNative.cpp.obj: CXX_COMPILER__AddInNative_
 build CMakeFiles\AddInNative.dir\dllmain.cpp.obj: CXX_COMPILER__AddInNative_unscanned_Debug C$:\Dev\cudamathlib-1c\component\cpp\source\dllmain.cpp | CMakeFiles\AddInNative.dir\cmake_pch.hxx CMakeFiles\AddInNative.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_AddInNative
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /YuC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx /FpC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/./cmake_pch.cxx.pch /FIC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx
-  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include -external:W0
+  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include -external:W0
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -85,7 +85,7 @@ build CMakeFiles\AddInNative.dir\dllmain.cpp.obj: CXX_COMPILER__AddInNative_unsc
 build CMakeFiles\AddInNative.dir\stdafx.cpp.obj: CXX_COMPILER__AddInNative_unscanned_Debug C$:\Dev\cudamathlib-1c\component\cpp\source\stdafx.cpp | CMakeFiles\AddInNative.dir\cmake_pch.hxx CMakeFiles\AddInNative.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_AddInNative
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /YuC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx /FpC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/./cmake_pch.cxx.pch /FIC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx
-  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include -external:W0
+  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include -external:W0
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -94,7 +94,7 @@ build CMakeFiles\AddInNative.dir\stdafx.cpp.obj: CXX_COMPILER__AddInNative_unsca
 build CMakeFiles\AddInNative.dir\C_\Dev\cudamathlib-1c\component\cpp\lib\common.cpp.obj: CXX_COMPILER__AddInNative_unscanned_Debug C$:\Dev\cudamathlib-1c\component\cpp\lib\common.cpp | CMakeFiles\AddInNative.dir\cmake_pch.hxx CMakeFiles\AddInNative.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_AddInNative
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /YuC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx /FpC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/./cmake_pch.cxx.pch /FIC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx
-  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include -external:W0
+  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include -external:W0
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir\C_\Dev\cudamathlib-1c\component\cpp\lib
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -103,7 +103,7 @@ build CMakeFiles\AddInNative.dir\C_\Dev\cudamathlib-1c\component\cpp\lib\common.
 build CMakeFiles\AddInNative.dir\impl\test.cpp.obj: CXX_COMPILER__AddInNative_unscanned_Debug C$:\Dev\cudamathlib-1c\component\cpp\source\impl\test.cpp | CMakeFiles\AddInNative.dir\cmake_pch.hxx CMakeFiles\AddInNative.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_AddInNative
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /YuC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx /FpC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/./cmake_pch.cxx.pch /FIC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx
-  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include -external:W0
+  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include -external:W0
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir\impl
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -112,7 +112,7 @@ build CMakeFiles\AddInNative.dir\impl\test.cpp.obj: CXX_COMPILER__AddInNative_un
 build CMakeFiles\AddInNative.dir\impl\MatDet.cpp.obj: CXX_COMPILER__AddInNative_unscanned_Debug C$:\Dev\cudamathlib-1c\component\cpp\source\impl\MatDet.cpp | CMakeFiles\AddInNative.dir\cmake_pch.hxx CMakeFiles\AddInNative.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_AddInNative
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /YuC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx /FpC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/./cmake_pch.cxx.pch /FIC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx
-  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include -external:W0
+  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include -external:W0
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir\impl
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -121,7 +121,7 @@ build CMakeFiles\AddInNative.dir\impl\MatDet.cpp.obj: CXX_COMPILER__AddInNative_
 build CMakeFiles\AddInNative.dir\impl\MatMul.cpp.obj: CXX_COMPILER__AddInNative_unscanned_Debug C$:\Dev\cudamathlib-1c\component\cpp\source\impl\MatMul.cpp | CMakeFiles\AddInNative.dir\cmake_pch.hxx CMakeFiles\AddInNative.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_AddInNative
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /YuC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx /FpC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/./cmake_pch.cxx.pch /FIC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx
-  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include -external:W0
+  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include -external:W0
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir\impl
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -131,7 +131,7 @@ build CMakeFiles\AddInNative.dir\AddInNative.rc.res: RC_COMPILER__AddInNative_un
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   DEP_FILE = CMakeFiles\AddInNative.dir\AddInNative.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Dev\cudamathlib-1c\component\cpp\source\..\include -I C:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -I C:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include
+  INCLUDES = -I C:\Dev\cudamathlib-1c\component\cpp\source\..\include -I C:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -I C:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -140,7 +140,7 @@ build CMakeFiles\AddInNative.dir\AddInNative.rc.res: RC_COMPILER__AddInNative_un
 build CMakeFiles\AddInNative.dir\impl\helper.cpp.obj: CXX_COMPILER__AddInNative_unscanned_Debug C$:\Dev\cudamathlib-1c\component\cpp\source\impl\helper.cpp | CMakeFiles\AddInNative.dir\cmake_pch.hxx CMakeFiles\AddInNative.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_AddInNative
   DEFINES = -DADDINCPP_EXPORTS -DAddInNative_EXPORTS -DUNICODE -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_USRDLL
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /YuC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx /FpC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/./cmake_pch.cxx.pch /FIC:/Dev/cudamathlib-1c/component/cpp/source/out/build/x64-Debug/CMakeFiles/AddInNative.dir/cmake_pch.hxx
-  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\include -external:W0
+  INCLUDES = -IC:\Dev\cudamathlib-1c\component\cpp\source\..\include -IC:\Dev\cudamathlib-1c\component\cpp\source\out\build\x64-Debug -external:IC:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\include -external:W0
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   OBJECT_FILE_DIR = CMakeFiles\AddInNative.dir\impl
   TARGET_COMPILE_PDB = CMakeFiles\AddInNative.dir\
@@ -154,10 +154,10 @@ build CMakeFiles\AddInNative.dir\impl\helper.cpp.obj: CXX_COMPILER__AddInNative_
 #############################################
 # Link the shared library AddInNative.dll
 
-build AddInNative.dll AddInNative.lib: CXX_SHARED_LIBRARY_LINKER__AddInNative_Debug CMakeFiles\AddInNative.dir\cmake_pch.cxx.obj CMakeFiles\AddInNative.dir\AddInNative.cpp.obj CMakeFiles\AddInNative.dir\dllmain.cpp.obj CMakeFiles\AddInNative.dir\stdafx.cpp.obj CMakeFiles\AddInNative.dir\C_\Dev\cudamathlib-1c\component\cpp\lib\common.cpp.obj CMakeFiles\AddInNative.dir\impl\test.cpp.obj CMakeFiles\AddInNative.dir\impl\MatDet.cpp.obj CMakeFiles\AddInNative.dir\impl\MatMul.cpp.obj CMakeFiles\AddInNative.dir\AddInNative.rc.res CMakeFiles\AddInNative.dir\impl\helper.cpp.obj | C$:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\lib\matrixmath.lib C$:\Dev\cudamathlib-1c\component\cpp\source\..\..\rust\target\debug\rust_1c.lib C$:\Dev\cudamathlib-1c\component\cpp\source\AddInNative.def
+build AddInNative.dll AddInNative.lib: CXX_SHARED_LIBRARY_LINKER__AddInNative_Debug CMakeFiles\AddInNative.dir\cmake_pch.cxx.obj CMakeFiles\AddInNative.dir\AddInNative.cpp.obj CMakeFiles\AddInNative.dir\dllmain.cpp.obj CMakeFiles\AddInNative.dir\stdafx.cpp.obj CMakeFiles\AddInNative.dir\C_\Dev\cudamathlib-1c\component\cpp\lib\common.cpp.obj CMakeFiles\AddInNative.dir\impl\test.cpp.obj CMakeFiles\AddInNative.dir\impl\MatDet.cpp.obj CMakeFiles\AddInNative.dir\impl\MatMul.cpp.obj CMakeFiles\AddInNative.dir\AddInNative.rc.res CMakeFiles\AddInNative.dir\impl\helper.cpp.obj | C$:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\lib\matrixmath.lib C$:\Dev\cudamathlib-1c\component\cpp\source\..\..\rust\target\debug\rust_1c.lib C$:\Dev\cudamathlib-1c\component\cpp\source\AddInNative.def
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL  /DEF:C:\Dev\cudamathlib-1c\component\cpp\source\AddInNative.def
-  LINK_LIBRARIES = C:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib\lib\matrixmath.lib  C:\Dev\cudamathlib-1c\component\cpp\source\..\..\rust\target\debug\rust_1c.lib  ntdll.lib  Ws2_32.lib  Crypt32.lib  Secur32.lib  Bcrypt.lib  Userenv.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = C:\Dev\cudamathlib-1c\component\cpp\source\..\cudamathlib-x64\lib\matrixmath.lib  C:\Dev\cudamathlib-1c\component\cpp\source\..\..\rust\target\debug\rust_1c.lib  ntdll.lib  Ws2_32.lib  Crypt32.lib  Secur32.lib  Bcrypt.lib  Userenv.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\AddInNative.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
